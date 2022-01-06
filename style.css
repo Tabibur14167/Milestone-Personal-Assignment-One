@@ -53,8 +53,6 @@ body{
 .misson{
     color:orange; 
 }
-/* font-family: 'Exo 2', sans-serif;
-font-family: 'Luxurious Roman', cursive; */ 
 .paragraph{
     font-size:19px;
     font-weight: bold;
@@ -67,25 +65,105 @@ font-family: 'Luxurious Roman', cursive; */
     padding: 5px 17px; 
     border-radius: 8px;
 }
-.button a {
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 5rem;
+}
+.body-writing{
+    font-size: 23px;
+    font-weight: bold;
+}
+.body-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.body-card div{
+    border-radius:20px; 
+    margin:8px;  
+    padding:2px; 
+    width: 350px;
+}
+.body-card div img{
+    width:200px; 
+    height: 200px;
+}
+.body-img-1{
+    background-color: rgb(168, 213, 221);
+}
+.body-img-2{
+    background-color: rgb(185, 188, 226);
+}
+.body-img-3{
+    background-color: rgb(198, 228, 173);
+}
+.body-card-two{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between; 
+    background-image: url(""); 
+    margin:20px 0 20px 0; 
+}
+.body-card-two div{
+     
+}
+.body-img-two img{
+    width:350px; 
+    height: 350px;
+}
+.background-img{
+    background-image: url("images/shapes/shape-1.png");
+ 
+    width:400px; 
+    height: 300px;
+}
+.card-three{
+    margin-left: 20px;
+}
+.body-card-last{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 150px;
+}
+.div-img-last img{ 
+    width: 300px;
+    height: 300px;
+}
+.img-one{
+    position: relative;
+    margin-left: 90px;
+}
+.img-two{
+   position: absolute;
+   margin-top: -400px; 
+}
+.div-writing-last{ 
+    margin-right:15rem;
+    margin-left:5rem ;
+}
+.footer{
+    width:100%; 
+    height: 95px;
+    background-color: black;
+    color:white; 
+    font-family: 'Luxurious Roman', cursive;
+    text-align: center; 
+    padding: 10px;
+}
+.last-div-last{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+.last-div-last h1, img{
+    width:40%; 
+    margin: 10px;
+}
 
 
 
